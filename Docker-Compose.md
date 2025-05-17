@@ -75,7 +75,7 @@ docker ps
 ```
 <br>
 
-Or, we if we only want to see containers that are within the docker-compose environment, we can use an alternative command:
+Or, if we only want to see containers that are within the docker-compose environment, we can use an alternative command:
 ```
 docker-compose ps
 ```
