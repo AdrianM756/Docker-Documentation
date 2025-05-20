@@ -40,7 +40,6 @@
 ```docker inspect <container-id>``` Will provide us low-level configuration information about various Docker objects like images, containers, volumes, networks, nodes, etc. in a JSON format.
 <br>
 
-```docker describe
 
 
 
