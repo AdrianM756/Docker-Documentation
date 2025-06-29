@@ -1,3 +1,5 @@
+![image](https://blog.dreamfactory.com/hubfs/Imported_Blog_Media/large_h-dark.png)
+
 ## Docker Installation
 
 On this demo, we will be installing docker on a Ubuntu machine.
