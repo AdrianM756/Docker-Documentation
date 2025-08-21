@@ -1,44 +1,22 @@
 ## Docker Commands
 <br>
 
-```docker --version``` To check the Docker version that is running on the system.
-<br>
+| Command | Description |
+|--------|-------------|
+| `docker --version` | Check the Docker version running on the system. |
+| `docker ps` | Show running Docker containers. |
+| `docker ps -a` | List all Docker containers (running and stopped). |
+| `docker images` | List all installed Docker images. |
+| `docker run <image>` | Create a container from an image. If the image isn't available locally, it pulls from the [Docker Hub](https://hub.docker.com/). |
+| `docker stop <container-id | container-name>` | Stop a running container. |
+| `docker rm <container-id | container-name>` | Delete a container. |
+| `docker rmi <image>` | Delete a Docker image. |
+| `docker pull <image>` | Pull an image from the [Docker Hub](https://hub.docker.com/). |
+| `docker run -d --name <container-name> <image>` | Run a container in detached mode with a custom name. |
+| `-d` | Detached mode: runs the container in the background. |
+| `--name` | Assigns a name to the container. |
+| `docker inspect <container-id>` | Provides detailed configuration info about Docker objects in JSON format. |
 
-```docker ps``` To check how many docker containers are running on the system.
-<br>
-
-```docker ps -a``` List  all the docker containers whether it is running or not.
-<br>
-
-```docker images``` List all docker images that are installed.
-<br>
-
-```docker run <images>``` Use to create a container. If the image is not available on the system, it will automatically pull the image from the [Docker hub](https://hub.docker.com/).
-<br>
-
-```docker stop <container-id | container-name>``` Use to stop a running container.
-<br>
-
-```docker rm <container-id | container-name>``` Use to delete a container.
-<br>
-
-```docker rmi <image>``` Use to delete a docker image.
-<br>
-
-```docker pull <image>``` use to pull an image on the [Docker hub](https://hub.docker.com/).
-<br>
-
-```docker run -d --name <container-name> <image>```
-<br>
-
-```-d``` means detached
-<br>
-
-```--name``` refers to the name of the container
-<br>
-
-```docker inspect <container-id>``` Will provide us low-level configuration information about various Docker objects like images, containers, volumes, networks, nodes, etc. in a JSON format.
-<br>
 
 
 
