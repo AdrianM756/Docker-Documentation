@@ -8,8 +8,8 @@
 | `docker ps -a` | List all Docker containers (both running and stopped containers.) |
 | `docker images` | List all installed Docker images. |
 | `docker run <image>` | Create a container from an image. If the image isn't available locally, it pulls from the [Docker Hub](https://hub.docker.com/). |
-| `docker stop <container-id | container-name>` | Stop a running container. |
-| `docker rm <container-id | container-name>` | Delete a container. |
+| `docker stop <container-id>  <container-name>` | Stop a running container. |
+| `docker rm <container-id> <container-name>` | Delete a container. |
 | `docker rmi <image>` | Delete a Docker image. |
 | `docker pull <image>` | Pull an image from the [Docker Hub](https://hub.docker.com/). |
 | `docker run -d --name <container-name> <image>` | Run a container in detached mode with a custom name. |
