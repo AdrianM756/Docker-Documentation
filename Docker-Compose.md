@@ -48,17 +48,14 @@ services:
 
 ***Explaination***:
 
-* ```version``` refers to the version of your docker machine.
-
-* ```services``` refers to the service that we will be using which is ```nginx```.
-
-* ```nginx:latest``` will pull the latest Nginx image.
-
-* ```container_name: my_nginx``` refers to the name of the nginx container.
-
-* ```- "80:80"``` Maps port 80 on your machine to the container.
-
-* ```restarr:always``` Ensures the container restarts automatically.
+| Commands |  Description                       |
+| :-------- | :-------------------------------- |
+| `version`      | 	refers to the version of your docker machine.|
+| `services`      | 	refers to the service that we will be using which is ```nginx```|
+| `nginx:latest`      | will pull the latest Nginx image. |
+| `container_name: my_nginx`      | 	refers to the name of the nginx container. |
+| `- "80:80"`      | 	Maps port ``80`` on your machine to the container. |
+| `restart:always`      | 	Ensures the container restarts automatically. |
 <br>
 
 ## Running the Docker Compose
